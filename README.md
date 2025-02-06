@@ -61,12 +61,12 @@ Este script realiza a restauração de backups previamente gerados. Ele lista os
 
 2. **Torne o script executável**:
     ```bash
-    chmod +x restore_postgresql.sh
+    chmod +x postgres_backup.sh
     ```
 
 3. **Execute o script**:
     ```bash
-    ./restore_postgresql.sh
+    ./postgres_backup.sh
     ```
 
 4. **Siga as instruções**:
@@ -79,9 +79,9 @@ Este script realiza a restauração de backups previamente gerados. Ele lista os
 ```bash
 Digite o nome de usuário do PostgreSQL: postgres
 Digite a senha do PostgreSQL:
-Digite o diretório onde os backups estão armazenados (padrão: ~/backups): /tmp/backups
+Digite o diretório onde os backups estão armazenados (padrão: ~/backups): 
 Selecione os backups que deseja restaurar (separe os números por espaço):
-  1) stock_side_dev_20250206_193815.sql
+  1) nome_do_banco_de_dados_20250206_193815.sql
 Opções: 1
 ```
 
@@ -92,3 +92,4 @@ Opções: 1
 - Ambos os scripts exigem que o PostgreSQL esteja corretamente configurado e que você tenha permissões suficientes para realizar backups e restores.
 - Para ambos os scripts, o usuário deve fornecer as credenciais de login (usuário e senha do PostgreSQL).
 - O diretório de destino para os backups ou de origem para os restores pode ser alterado a qualquer momento, e a verificação de conexão com o servidor PostgreSQL é realizada para evitar erros.
+
