@@ -57,8 +57,7 @@ Este script realiza a restauração de backups previamente gerados. Ele lista os
 - **Restauração de Bancos**: O script verifica se o banco de dados existe. Caso contrário, ele cria o banco antes de restaurar o backup.
 
 ### **Como Usar**
-1. **Baixe o script**:
-    - Salve o arquivo como `restore_postgresql.sh`.
+1. **Baixe o script**
 
 2. **Torne o script executável**:
     ```bash
